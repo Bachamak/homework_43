@@ -1,0 +1,98 @@
+body {
+    background-color: #f3f3f3;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+    margin: 0;
+    padding: 0;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.weather-app nav {
+    display: flex;
+    flex-direction: row;
+    align-items: left;
+    justify-content: left;
+    margin: 30px;
+
+}
+
+h1 {
+    font-size: 3rem;
+    font-weight: 500;
+    margin: 0;
+    padding: 0;
+}
+
+.label-text {
+  font-size: 1.2rem;
+  font-weight: 500;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid #212529;
+  border-radius: 0.25rem;
+  box-shadow: 0 0 15px 4px rgba(0, 0, 0, 0.06);
+  padding: 4px;
+}
+
+.input-field {
+  padding: 10px;
+  border: 0;
+  border-radius: 0.25rem;
+  font-weight: 500;
+  color: #212529;
+  font-size: 1rem;
+  box-shadow: 0 0 15px 4px rgba(0,0,0,0.06);
+}
+
+.Btn-search {
+    background-color: #fff;
+    border: 0;
+    border-radius: 0.25rem;
+    box-shadow: 0 0 15px 4px rgba(0, 0, 0, 0.06);
+    color: #212529;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: 500;
+    padding: 10px;
+    margin-left: 10px;
+    transition: all 0.3s ease-in-out;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: -150px;
+}
+
+.main-research-result .h2 {
+    font-size: 1rem;
+    font-weight: 500;
+    margin: 0;
+    padding: 0;
+}
+
+.main-research-result .p {
+    font-size: 1rem;
+    font-weight: 500;
+    margin: 0;
+    padding: 0;
+}
+
+.list-condition {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    & li {
+        margin-top: 10px;
+        box-shadow: 0 0 15px 4px rgba(0, 0, 0, 0.06);
+        padding: 10px;
+    }
+}
